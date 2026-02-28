@@ -1,8 +1,3 @@
-/* ===================================================================
- * Luther 1.0.0 - Main JS
- *
- * ------------------------------------------------------------------- */
-
 (function(html) {
 
     "use strict";
@@ -360,5 +355,25 @@
         ssMoveTo();
 
     })();
+
+    const music = document.getElementById("bg-music");
+    const toggleBtn = document.getElementById("music-toggle");
+    let isPlaying = false;
+    music.volume = 0.2;
+
+    toggleBtn.addEventListener("click", () => {
+        if (!isPlaying) {
+        music.play();
+        toggleBtn.textContent = "♫ On";
+        } else {
+        music.pause();
+        toggleBtn.textContent = "♫ Off";
+        }
+        isPlaying = !isPlaying;
+        toggleBtn.innerHTML = isPlaying
+        ? mutedSVG
+        : unmutedSVG;
+    });
+
 
 })(document.documentElement);

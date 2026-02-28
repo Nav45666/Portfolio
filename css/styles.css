@@ -4132,3 +4132,28 @@ img.u-pull-left {
         right : 6vw;
     }
 }
+
+#music-toggle {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 9999;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+#music-icon {
+  width: 30px;
+  height: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 40px;
+  line-height: 1;
+
+  transform: none !important;
+  transition: none !important;
+}
