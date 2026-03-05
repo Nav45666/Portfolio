@@ -101,6 +101,8 @@ Provides multiple ways to connect including email, phone number,
 GitHub profile, and LinkedIn.
 </p>
 
+<hr>
+
 <h2>Purpose</h2>
 
 <p>
