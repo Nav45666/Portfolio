@@ -31,7 +31,7 @@ You can view the portfolio here:
 </p>
 
 <p>
-<a href="https://nav45666.github.io/">Visit Portfolio Website</a>
+<a href="https://nav45666.github.io/Portfolio/">Visit Portfolio Website</a>
 </p>
 
 <hr>
